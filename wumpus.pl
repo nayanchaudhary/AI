@@ -53,4 +53,4 @@ move([X, D], [M | P], CL, [S|F]) :-
 
 findPath(S) :-
 	X = [[1,1], north],
-	move(X, _, [X], F).
+	move(X, _, [X], [S|F]).
